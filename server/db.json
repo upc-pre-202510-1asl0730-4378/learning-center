@@ -1,0 +1,122 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse",
+      "price": 25.99,
+      "category": "Electronics",
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with Bluetooth",
+      "price": 45.00,
+      "category": "Audio",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "name": "Laptop Stand",
+      "description": "Adjustable laptop stand",
+      "price": 35.50,
+      "category": "Electronics",
+      "stock": 75
+    },
+    {
+      "id": 4,
+      "name": "USB-C Cable",
+      "description": "3m USB-C charging cable",
+      "price": 12.99,
+      "category": "Accessories",
+      "stock": 200
+    },
+    {
+      "id": 6,
+      "name": "Laptop Stand",
+      "description": "Adjustable laptop stand",
+      "price": 35.50,
+      "category": "Electronics",
+      "stock": 75
+    },
+    {
+      "id": 7,
+      "name": "USB-C Cable",
+      "description": "3m USB-C charging cable",
+      "price": 12.99,
+      "category": "Accessories",
+      "stock": 200
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "123456789",
+      "address": "123 Maple St"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "987654321",
+      "address": "456 Oak St"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.b@example.com",
+      "phone": "555444333",
+      "address": "789 Pine St"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": 1,
+      "orderId": "ORD001",
+      "clientId": 1,
+      "productId": 1,
+      "deliveryDate": "2025-05-20",
+      "deliveryAddress": "123 Maple St",
+      "status": "Delivered"
+    },
+    {
+      "id": 2,
+      "orderId": "ORD002",
+      "clientId": 2,
+      "productId": 2,
+      "deliveryDate": "2025-05-21",
+      "deliveryAddress": "456 Oak St",
+      "status": "Shipped"
+    },
+    {
+      "id": 3,
+      "orderId": "ORD003",
+      "clientId": 2,
+      "productId": 1,
+      "deliveryDate": "2025-05-21",
+      "deliveryAddress": "456 Oak St",
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "orderId": "ORD004",
+      "clientId": 3,
+      "productId": 3,
+      "deliveryDate": "2025-05-22",
+      "deliveryAddress": "789 Pine St",
+      "status": "Processing"
+    },
+    {
+      "id": 5,
+      "orderId": "ORD005",
+      "clientId": 2,
+      "productId": 1,
+      "deliveryDate": "2025-05-30",
+      "deliveryAddress": "123 Maple St",
+      "status": "Delivered"
+    }
+  ]
+}

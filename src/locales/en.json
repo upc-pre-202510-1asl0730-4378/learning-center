@@ -1,0 +1,11 @@
+{
+  "option": {
+    "home": "Home",
+    "delivery": "Delivery"
+  },
+  "authoring-phrase": {
+    "intro": "Made with",
+    "use": "using",
+    "author": "by {brand} Developer Team"
+  }
+}
